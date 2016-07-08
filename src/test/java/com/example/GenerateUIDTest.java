@@ -19,11 +19,11 @@ public class GenerateUIDTest {
 
 		GenerateUID obj = new GenerateUID();
 		Assert.assertEquals(50, obj.generateUniqueKey().length());
-	} */
+	} 
 	@Test
 	public void testCompareUniqueKey() {
 
 		GenerateUID obj = new GenerateUID();
 		assertEquals("afaewn54jknakjsdf", obj.generateUniqueKey());
-	} 
+	} */
 }
