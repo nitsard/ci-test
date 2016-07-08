@@ -14,7 +14,7 @@ public class GenerateUIDTest {
 		GenerateUID obj = new GenerateUID();
 		Assert.assertEquals(36, obj.generateUniqueKey().length());
 	}
-/*	@Test
+	@Test
 	public void invalid_testLengthOfTheUniqueKey() {
 
 		GenerateUID obj = new GenerateUID();
@@ -25,5 +25,5 @@ public class GenerateUIDTest {
 
 		GenerateUID obj = new GenerateUID();
 		assertEquals("afaewn54jknakjsdf", obj.generateUniqueKey());
-	} */
+	} 
 }
