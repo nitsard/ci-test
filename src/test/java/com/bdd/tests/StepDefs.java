@@ -16,13 +16,13 @@ public class StepDefs {
 
 
 	@Given("^I call API$")
-	public void call1() throws Throwable {
+	public void apiCall() throws Throwable {
 		GenerateUID obj = new GenerateUID();
 		uniqueKey = obj.generateUniqueKey();
 	}
 
 	@Then("^I get result$")
-	public void call2() throws Throwable {
+	public void apiResult() throws Throwable {
 		if(uniqueKey.length() == 36) {
 			System.out.println("I get result: completed successfully");
 			return;
